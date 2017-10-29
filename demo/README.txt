@@ -1,13 +1,13 @@
-��BCEDEC�@http://cedec-kyushu.jp/2017/session/03.html
-�u�s�`�i�e�N�j�J���A�[�e�B�X�g�j��ڎw���A�[�e�B�X�g�̂��߂�Python����v
-�ŁA��������Maya Python�w�K�p�̃u���b�N�����Q�[���f��
+九州CEDEC　http://cedec-kyushu.jp/2017/session/03.html
+「ＴＡ（テクニカルアーティスト）を目指すアーティストのためのPython入門」
+で、実演したMaya Python学習用のブロック崩しゲームデモ
 
-�N�����@
+起動方法
 
-�X�N���v�g�G�f�B�^��
+スクリプトエディタで下のコマンドを実行後に、キーボードの十字キーの左右でパドルを移動
 
 
-sys.path.append("./cedec-kyushu2017/demo") # github����clone�����f�B���N�g�����w��
+sys.path.append("./cedec-kyushu2017/demo") # githubからcloneしたディレクトリを指定
 
 import blockgame
 blockgame.main()
